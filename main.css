@@ -1,11 +1,56 @@
 html, body {
     height: 100%;
+    width:100%
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
 
 .containers-all {
     display: flex;
     flex-direction:column;
-    height: 100%;
-    justify-content: center;
+    height: 38%;
+    justify-content: flex-end;
     align-items: center;
+}
+
+.nav-bar {
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.nav-bar .upper-left {
+    display:flex;
+    justify-content: space-evenly;
+    width:10%
+}
+
+.nav-bar .upper-left .about {
+}
+
+.nav-bar .upper-left .store {
+}
+
+.nav-bar .upper-right {
+    display: flex;
+    justify-content: space-evenly;
+    width: 15%;
+}
+
+.nav-bar .upper-right .gmail {
+}
+
+.nav-bar .upper-right .images {
+
+}
+
+.nav-bar .upper-right .apps {
+
+}
+
+.nav-bar .upper-right .sign-in {
+
 }
