@@ -22,8 +22,47 @@ html, body {
     display: flex;
     flex-direction:column;
     height: 100%;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+}
+
+.container-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 550px;
+    border-style: solid;
+    border-color:gainsboro;
+    border-radius: 35px;
+    border-width: 1px;
+    margin-top: 20px;
+} 
+#logo {
+    margin-top:140px;
+}
+#search-box {
+    width:400px;
+    border-style: none;
+}
+#search-icon {
+    margin-left: 15px;
+    color:
+}
+.search-lucky {
+    display: flex;
+    margin-top: 30px;
+    color: #70757a;
+
+}
+#search {
+    padding: 8px 18px;
+    background-color: #f1f1f1;
+    margin-right: 10px;
+}
+#lucky {
+    padding: 8px 18px;
+    background-color: #f1f1f1;
 }
 
 .nav-bar {
@@ -43,6 +82,7 @@ html, body {
     font-size: 13px;
 }
 
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -61,10 +101,12 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 60px;
 }
 
 .footer .bottom-center .leaf {
    height: 14px;
+   margin-right: 5px;
 }
 
 .footer .bottom-right {
