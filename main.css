@@ -28,7 +28,6 @@ html, body {
 
 .container-form {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     height: 40px;
     width: 550px;
@@ -41,8 +40,13 @@ html, body {
 #logo {
     margin-top:140px;
 }
+
+#text-form {
+    width: 90%;
+}
+
 #search-box {
-    width:400px;
+    width: 100%;
     border-style: none;
 }
 #search-icon {
@@ -70,8 +74,7 @@ html, body {
     height: 60px;
     display: flex;
     align-items: center;
-    padding: 6px;
-    color: 
+    padding: 6px; 
 }
 
 .nav-bar .upper-right {
@@ -180,3 +183,4 @@ html, body {
     margin: 0 0 0 5px;
     padding: 5px;
 }
+
