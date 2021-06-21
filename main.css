@@ -87,14 +87,16 @@ html, body {
     display: flex;
     justify-content: space-between;
     width: stretch;
+    flex-wrap: wrap;
     background-color: #f2f2f2;
     color: #70757a;
 }
 
 .footer .bottom-left {
     display: flex;
-    justify-content: space-evenly;
-    width: 20%;
+}
+.bottom-left-text {
+    margin-left: 10px;
 }
 
 .footer .bottom-center {
@@ -111,8 +113,41 @@ html, body {
 
 .footer .bottom-right {
     display: flex;
-    justify-content: space-evenly;
-    width: 15%;
+}
+.bottom-right-text {
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .footer .bottom-center {
+        order: 1;
+        width: 100%;
+    }
+    .footer .bottom-left {
+        order: 2;
+    }
+    .footer .bottom-right {
+        order: 3;
+    }
+    .footer {
+        justify-content: space-evenly;
+    }
+    .footer .bottom-center {
+        margin: 0;
+    }
+
+@media only screen and (max-width: 687.5px) {
+    .container-form {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 }
 #images {
     padding-left: 15px;
